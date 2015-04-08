@@ -142,8 +142,8 @@
           <div class="comment"></div>
         </template>
     </pre>
-    <pre>Parsed but not rendered (Scripts not run, images and styleshettes not loaded, madia not played)</pre>
-    <pre>Hidden from document (document.querySelector("#myTemplate .comment'")) == null;</pre>
+    <h5>Parsed but not rendered (Scripts not run, images and styleshettes not loaded, madia not played)</h5>
+    <h5><pre>Hidden from document (document.querySelector("#myTemplate .comment'")) == null;</pre><h5>
 </section>
 
 <section>
@@ -234,8 +234,9 @@
       <h4>Registration</h4>
 </section>
 
+<section>
       <h3>Custom Element</h3>
-      <h4>Extending existing HTML Element</h4>
+      <h5>Extending existing HTML Element</h5>
 </section>
 
 <section>
@@ -361,8 +362,8 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding: 40px;
     text-align: right;
+    padding: 3px 5px 3px;
     background-color: #F3F4F8;
     border-top: 1px solid #CCC;
   }
@@ -411,7 +412,8 @@
      progress of the presentation. */
   #progress-bar {
     height: 2px;
-    background: #AAA;
+    background: red;
+    z-index: 1000;
   }
 </style>
 
@@ -1033,7 +1035,6 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding: 40px;
     text-align: right;
     background-color: #F3F4F8;
     border-top: 1px solid #CCC;
@@ -1083,7 +1084,7 @@
      progress of the presentation. */
   #progress-bar {
     height: 2px;
-    background: #AAA;
+    background: red;
   }
 </style>
 
